@@ -21,6 +21,7 @@ public class Session {
         while (!cmd.equals("stop")){
             System.out.print("> ");
             String input = scanner.nextLine();
+            //split input from console into 2 parts with " "
             String[] splitInput = input.split(" ", 2);
             cmd = splitInput[0];
             

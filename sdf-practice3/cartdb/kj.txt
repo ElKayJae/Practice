@@ -1,4 +1,2 @@
 apple
 orange
-mango
-pear
